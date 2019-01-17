@@ -16,11 +16,3 @@
 </html>
 
 
-document.addEventListener('keydown', function(e){
-  if (e.which==37) {
-    var leftNumbers = Dodger.style.left.replace('px', '')
-    var left = parseInt(leftNumbers, 10)
-    Dodger.style.left = `$(left - 1) px`
-  
-  }
-})
